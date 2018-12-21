@@ -6,7 +6,7 @@ PeptoGrid is a set of tools implementing rescoring function for AutoDock Vina sc
 
 ### Prerequisites
 
-PeptoGrid written in Python2 and depends on several other projects:
+PeptoGrid written in Python2.7 and depends on several other projects:
 
 [NumPy](http://www.numpy.org/) for calculations
 
