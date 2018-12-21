@@ -6,7 +6,7 @@ PeptoGrid is a set of tools implementing rescoring function for AutoDock Vina sc
 
 ### Prerequisites
 
-PeptoGrid depends on several other projects:
+PeptoGrid written in Python2 and depends on several other projects:
 
 [NumPy](http://www.numpy.org/) for calculations
 
@@ -44,10 +44,10 @@ PeptoGrid itself doesn't require any installation. Just clone or download reposi
 No preprocessing (splitting or conversion to PDB) of AutoDock Vina results is required. PeptoGrid works with raw pdbqt outputs.
 
 To build atom frequency grid:
-> peptogrid/grid.py -m grid.hdf5 -f *out.pdbqt -c vina.cfg -s 0.1
+> python peptogrid/grid.py -m grid.hdf5 -f *out.pdbqt -c vina.cfg -s 0.1
 
 To rescore poses:
-> peptogrid/score.py -m grid.hdf5 -f *out.pdbqt -c vina.cfg -s 0.1 -o score_table.csv
+> python peptogrid/score.py -m grid.hdf5 -f *out.pdbqt -c vina.cfg -s 0.1 -o score_table.csv
 
 To visualize in PyMOL:
 * run PyMOL
