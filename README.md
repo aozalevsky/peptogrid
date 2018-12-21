@@ -44,10 +44,10 @@ PeptoGrid itself doesn't require any installation. Just clone or download reposi
 No preprocessing (splitting or conversion to PDB) of AutoDock Vina results is required. PeptoGrid works with raw pdbqt outputs.
 
 To build atom frequency grid:
-> peptogrid/grid_atom_mem.py -m grid.hdf5 -f *out.pdbqt -c vina.cfg -s 0.1
+> peptogrid/grid.py -m grid.hdf5 -f *out.pdbqt -c vina.cfg -s 0.1
 
 To rescore poses:
-> peptogrid/score_atom_mem.py -m grid.hdf5 -f *out.pdbqt -c vina.cfg -s 0.1 -o score_table.csv
+> peptogrid/score.py -m grid.hdf5 -f *out.pdbqt -c vina.cfg -s 0.1 -o score_table.csv
 
 To visualize in PyMOL:
 * run PyMOL
