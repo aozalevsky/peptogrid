@@ -2,6 +2,10 @@
 
 PeptoGrid is a set of tools implementing rescoring function for AutoDock Vina scoring predictions
 
+## Related Publication
+
+[Zalevsky, Zlobin, Gedzun, Reshetnikov, Lovat, Malyshev, Doronin, Babkin, Golovin, "PeptoGrid—Rescoring Function for AutoDock Vina to Identify New Bioactive Molecules from Short Peptide Libraries"](https://doi.org/10.3390/molecules24020277)
+
 ## Install 
 
 ### Prerequisites
